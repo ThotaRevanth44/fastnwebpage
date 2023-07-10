@@ -1,40 +1,44 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: pink
+align-content: center
+spacing.fixed.px: 20
+-- card:
+
+-- card: Revanth
+
+lucknow is situated in uttar pradesh
+
+-- card:
+-- end: ftd.column
+
+-- component card:
+caption title: Default Title
+body description: Default body
+
+-- ftd.row:
+width.fixed.px: 700
+height.fixed.px: 400
+background.solid: white
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 50
+-- ftd.column:
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
+
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
+
+-- end: ftd.column
+
+-- ftd.image:
+src: https://th.bing.com/th?id=OIP.Vt3kGu4X6WQlmH91GpJpzgHaFH&w=300&h=207&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2
+height: fill-container
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- end: ftd.row
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: card
